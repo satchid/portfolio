@@ -6,12 +6,12 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #ffffff;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
-  --bottom-margin: 0.5rem;
+  --bottom-margin: 0.25rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
@@ -108,6 +108,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  height: auto;
 }
 
 .hero img {
@@ -174,8 +175,7 @@ nav ul li {
 /* Projects section */
 .projects {
   background-color: var(--bg-color);
-  padding: 32px 0;
-  margin-top: 2rem;
+  padding: 5px 0;
 }
 
 .project-pic {
@@ -187,17 +187,19 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 300px;
+  align-content: start;
 }
 
 .projects-title {
   text-align: center;
-  margin-bottom: 1rem;
 }
 
 .project-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+  align-content: start;
 }
 
 .project-container p {
@@ -205,7 +207,7 @@ nav ul li {
 }
 
 .project-title {
-  margin-bottom: var(--bottom-margin);
+  margin-bottom: 0;
 }
 
 .project-details {
@@ -329,8 +331,9 @@ footer {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 5px;
+  height: auto;
 }
 
 /* Media queries for responsiveness */
@@ -401,7 +404,7 @@ footer {
   }
 
   .project-container {
-    width: 20.875rem;
+    width: 30.875rem;
   }
 
   .contact-form-container {
@@ -411,7 +414,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    height: 27.5rem;
     width: 23rem;
   }
 
