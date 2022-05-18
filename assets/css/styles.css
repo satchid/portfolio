@@ -425,8 +425,8 @@ footer {
     max-width: 30rem;
   }
 
-  .rc-anchor {
-    max-width: 50px;
+  .g-recaptcha {
+    max-width: 25rem;
   }
 }
 
