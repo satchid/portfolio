@@ -16,6 +16,7 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+
 /* Variables end */
 
 html {
@@ -147,9 +148,10 @@ nav ul li {
 
 /* Skills section */
 .skills {
+  max-width: 68.75rem;
+  margin: auto;
   text-align: center;
-  float: left;
-  width: 60%;
+  margin-top: 2.5rem;
 }
 
 .skill-header {
@@ -214,8 +216,7 @@ nav ul li {
 
 /* Contacts section */
 .contact {
-  float: left;
-  width: 40%;
+  margin-top: 2rem;
 }
 
 .contact h2 {
@@ -224,6 +225,7 @@ nav ul li {
 }
 
 .contact-form-container {
+  max-width: 40.75rem;
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
@@ -411,19 +413,16 @@ footer {
 
   .skills {
     margin-top: 25rem;
-    width:100%;   
-    float:none;
   }
 
   .contact {
     margin-top: 2rem;
-    width:100%;   
-    float:none;
   }
 
   .contact-form-container {
     max-width: 30rem;
   }
+  
 
   .g-recaptcha {
     position: relative;
