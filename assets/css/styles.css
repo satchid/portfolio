@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #ffffff;
-  --primary-color: #4756df;
+  --primary-color: #140784;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -105,21 +105,19 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-  max-width: 68.75rem;
-  margin: auto;
+  margin-top: 0.25rem;
   height: auto;
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 400px;
+  width: 400px;
 }
 
 .bio {
-  width: 25rem;
-  padding: 0.625rem;
-  border-radius: 6px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 16px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
@@ -129,7 +127,7 @@ nav ul li {
 
 .bio p {
   line-height: var(--line-height);
-  padding: 0.3rem 0;
+  padding: 0.4rem 0;
 }
 /* Hero section ends */
 
@@ -152,10 +150,9 @@ nav ul li {
 
 /* Skills section */
 .skills {
-  max-width: 68.75rem;
-  margin: auto;
   text-align: center;
-  margin-top: 2.5rem;
+  float: left;
+  width: 60%;
 }
 
 .skill-header {
@@ -193,12 +190,14 @@ nav ul li {
 
 .projects-title {
   text-align: center;
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 .project-container {
   text-align: center;
   width: 21.875rem;
-  padding: 1rem;
+  padding: 2rem;
   align-content: start;
 }
 
@@ -218,7 +217,8 @@ nav ul li {
 
 /* Contacts section */
 .contact {
-  margin-top: 2rem;
+  float: left;
+  width: 40%;
 }
 
 .contact h2 {
@@ -332,7 +332,7 @@ footer {
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 10px;
-  margin: 5px;
+  margin: 12px;
   height: auto;
 }
 
@@ -366,7 +366,7 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+    margin-top: -6rem;
     flex-direction: column;
     gap: 0;
   }
@@ -377,7 +377,7 @@ footer {
   }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: -5rem;
     width: 20.5rem;
   }
 
@@ -399,12 +399,30 @@ footer {
     height: 5.25rem;
   }
 
+  .projects-title {
+    text-align: center;
+    margin-top:2rem;
+  }
+
   .projects-container {
     flex-direction: column;
+    margin-top: 25rem;
   }
 
   .project-container {
     width: 30.875rem;
+  }
+
+  .skills {
+    margin-top: 25rem;
+    width:100%;   
+    float:none;
+  }
+
+  .contact {
+    margin-top: 2rem;
+    width:100%;   
+    float:none;
   }
 
   .contact-form-container {
