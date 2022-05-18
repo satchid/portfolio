@@ -426,7 +426,8 @@ footer {
   }
 
   .g-recaptcha {
-    max-width: 10rem;
+    max-width: 25rem;
+    width: 150px;
   }
 }
 
